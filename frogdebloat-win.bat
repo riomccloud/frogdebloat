@@ -8,7 +8,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo ABOUT
 echo.
@@ -67,7 +67,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 %adb% shell pm %PmAction% com.android.printspooler
 %adb% shell am force-stop com.android.printspooler
@@ -180,7 +180,7 @@ if "!OpMode!"=="Android 4.3-" (
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -201,7 +201,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 rem Amazon
 %adb% shell pm %PmAction% com.amazon.appmanager
@@ -309,7 +309,7 @@ rem Microsoft
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -330,7 +330,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 rem ASUS
 %adb% shell pm %PmAction% com.asus.calculator
@@ -3115,7 +3115,7 @@ rem ZTE
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -3136,7 +3136,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 %adb% shell pm %PmAction% com.android.hotwordenrollment.okgoogle
 %adb% shell am force-stop com.android.hotwordenrollment.okgoogle
@@ -3513,7 +3513,7 @@ if "!OpMode!"=="Android 4.3-" (
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -3534,7 +3534,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 rem American carriers
 %adb% shell pm %PmAction% com.mobitv.client.tmobiletvhd
@@ -3990,7 +3990,7 @@ rem Portuguese carriers
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -4011,7 +4011,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 %adb% shell pm %PmAction% com.android.calculator2
 %adb% shell am force-stop com.android.calculator2
@@ -4559,7 +4559,7 @@ if "!OpMode!"=="Android 4.3-" (
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -4580,7 +4580,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 rem Mediatek
 %adb% shell pm %PmAction% com.mediatek.atmwifimeta
@@ -4707,7 +4707,7 @@ rem Qualcomm
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -4728,7 +4728,7 @@ cls
 if "!OpMode!"=="Android 4.3-" (
 	%adb% root
 ) else (
-	echo Root (X)
+	echo Root X
 )
 %adb% shell pm %PmAction% com.google.android.gms
 %adb% shell am force-stop com.google.android.gms
@@ -4757,7 +4757,7 @@ if "!OpMode!"=="Android 4.3-" (
 if "!OpMode!"=="Android 4.3-" (
 	%adb% kill-server
 ) else (
-	echo Root (X)
+	echo Root X
 )
 
 echo.
@@ -4819,11 +4819,11 @@ goto do-eds-end
 exit
 
 :language
-title FrogDebloat v1.0
+title FrogDebloat v1.01
 cls
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Select your language:
 echo.
@@ -4865,7 +4865,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo ADB NOT FOUND
 echo.
@@ -4915,7 +4915,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Choose the operation mode:
 echo.
@@ -4956,7 +4956,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo OPERATION MODE: %OpMode%
 echo.
@@ -5046,7 +5046,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo AOSP
 echo.
@@ -5100,7 +5100,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Third party companies
 echo.
@@ -5154,7 +5154,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Manufacturers
 echo.
@@ -5209,7 +5209,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Google
 echo.
@@ -5264,7 +5264,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Mobile carriers
 echo.
@@ -5318,7 +5318,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Other bloatware
 echo.
@@ -5373,7 +5373,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Processors
 echo.
@@ -5427,7 +5427,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Google integration and others (ADVANCED)
 echo.
@@ -5483,7 +5483,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Uninstall all the uninstallable apps
 echo.
@@ -5523,7 +5523,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Change specific app
 echo.
@@ -5578,7 +5578,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Change specific app
 echo.
@@ -5618,7 +5618,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo ADB NÃO ENCONTRADO
 echo.
@@ -5667,7 +5667,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Escolha o modo de operação:
 echo.
@@ -5708,7 +5708,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo MODO DE OPERAÇÃO: %OpMode%
 echo.
@@ -5798,7 +5798,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo AOSP
 echo.
@@ -5852,7 +5852,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Empresas terceiras
 echo.
@@ -5906,7 +5906,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Fabricantes
 echo.
@@ -5960,7 +5960,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Google
 echo.
@@ -6015,7 +6015,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Operadoras móveis
 echo.
@@ -6069,7 +6069,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Outros bloatwares
 echo.
@@ -6124,7 +6124,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Processadores
 echo.
@@ -6178,7 +6178,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Integração Google e outros (AVANÇADO)
 echo.
@@ -6234,7 +6234,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Desinstalar todos os aplicativos desinstaláveis
 echo.
@@ -6274,7 +6274,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Alterar aplicativo específico
 echo.
@@ -6329,7 +6329,7 @@ cls
 
 echo ============================================================
 echo.
-echo ..:: FROGDEBLOAT v1.0 ::..
+echo ..:: FROGDEBLOAT v1.01 ::..
 echo.
 echo Alterar aplicativo específico
 echo.
