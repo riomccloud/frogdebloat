@@ -31,7 +31,7 @@ There are 3 operation modes: **Android 5.0+** (disable apps for the user only wi
 1. (OPTIONAL) Perform a hard reset on the device. Finish the OOBEE, but **do not** connect to the internet
 2. Install [Android Debug Bridge](https://developer.android.com/studio/releases/platform-tools) (in the system path or in the portable mode)
 3. Run the script
-   - **Windows:** open PowerShell and type ``irm https://raw.githubusercontent.com/riomccloud/frogdebloat/main/iex.ps1 | iex``
+   - **Windows:** download the latest version from [Releases](https://github.com/riomccloud/frogdebloat/releases/latest), extract and run ``start.bat``
    - **Linux:** *coming soon*
 4. (OPTIONAL) Execute ``[y] Uninstall all the uninstallable apps`` and then disable every bloatware group, one at a time
 
