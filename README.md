@@ -1,3 +1,5 @@
+ℹ **Archived since there are better options. Particularly, I like [Shizuku](https://github.com/RikkaApps/Shizuku) + [Canta](https://github.com/samolego/Canta).**
+
 # FrogDebloat
 Small batch and bash tool to debloat Android devices using a comprehensive database of bloatware.
 
